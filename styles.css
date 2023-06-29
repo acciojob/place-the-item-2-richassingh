@@ -1,2 +1,14 @@
-
-/* Your CSS Code here. */
+.holder{
+    display: flex;
+    
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row wrap;
+	width:500px;
+    height: 100px;
+}
+.item{
+    width:90px;
+    height: 30px;
+    background-color: red;
+}
